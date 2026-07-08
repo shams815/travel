@@ -1,1 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trip Agent</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background: #2c3e50; color: #fff; padding: 20px; text-align: center; }
+    nav a { color: #fff; margin: 0 15px; text-decoration: none; }
+    section { padding: 40px; }
+    .search-box { background: #ecf0f1; padding: 20px; border-radius: 8px; }
+    .destinations { display: flex; gap: 20px; }
+    .card { flex: 1; background: #f9f9f9; padding: 20px; border-radius: 8px; }
+    footer { background: #2c3e50; color: #fff; text-align: center; padding: 15px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Trip Agent</h1>
+    <nav>
+      <a href="#search">Search Trips</a>
+      <a href="#destinations">Destinations</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
+  <section id="search">
+    <h2>Find Your Perfect Trip</h2>
+    <div class="search-box">
+      <form>
+        <label>Destination: <input type="text" name="destination" required></label><br><br>
+        <label>Departure Date: <input type="date" name="departure" required></label><br><br>
+        <label>Return Date: <input type="date" name="return"></label><br><br>
